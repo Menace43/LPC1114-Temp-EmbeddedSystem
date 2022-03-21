@@ -1,0 +1,11 @@
+--cpu Cortex-M0
+".\objects\startup_lpc11xx.o"
+".\objects\system_lpc11xx.o"
+".\objects\main.o"
+".\objects\timer.o"
+".\objects\uart.o"
+C:\Keil_v5\ARM\RV31\LIB\RTX_CM1.LIB
+--strict --scatter ".\Objects\Timer_ADC.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Timer_ADC.map" -o .\Objects\Timer_ADC.axf

@@ -1,0 +1,736 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Joel Adeyemo, St Cloud State University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+C:\ECE 323\Final Project\FinalProject.uvproj
+Project File Date:  11/30/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+UART.c(1): warning: In file included from...
+./UART.h(1): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(110): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(147): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cmInstr.h(435): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+UART.c(1): warning: In file included from...
+./UART.h(1): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(110): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(605): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    SCB->SHP[_SHP_IDX(IRQn)] = (SCB->SHP[_SHP_IDX(IRQn)] & ~(0xFF << _BIT_SHIFT(IRQn))) |
+                                                         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(608): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    NVIC->IP[_IP_IDX(IRQn)] = (NVIC->IP[_IP_IDX(IRQn)] & ~(0xFF << _BIT_SHIFT(IRQn))) |
+                                                       ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(639): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+UART.c(1): warning: In file included from...
+./UART.h(1): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(311): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(309): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(362): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(367): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(371): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+UART.c(47): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_UART -> LCR &= ~(1<<7); // disable the Divisor Latch
+                        ~~ ^~~~~~~
+10 warnings generated.
+compiling UART.c...
+keypad_scanner.c(1): warning: In file included from...
+./keypad_scanner.h(5): warning: this function declaration is not a prototype [-Wstrict-prototypes]
+void debounce();
+             ^
+              void
+keypad_scanner.c(2): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(110): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(147): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cmInstr.h(435): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+keypad_scanner.c(2): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(110): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(605): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    SCB->SHP[_SHP_IDX(IRQn)] = (SCB->SHP[_SHP_IDX(IRQn)] & ~(0xFF << _BIT_SHIFT(IRQn))) |
+                                                         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(608): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    NVIC->IP[_IP_IDX(IRQn)] = (NVIC->IP[_IP_IDX(IRQn)] & ~(0xFF << _BIT_SHIFT(IRQn))) |
+                                                       ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(639): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+keypad_scanner.c(2): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(311): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(309): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(362): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(367): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(371): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+keypad_scanner.c(31): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO1->DATA  &= ~(rows);
+                         ~~ ^~~~~~~
+keypad_scanner.c(67): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+     LPC_GPIO0->IEV &= ~(0x1E);
+                    ~~ ^~~~~~~
+keypad_scanner.c(95): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                LPC_GPIO1 ->DATA &= ~(0x17);  //ground rows 
+                                 ~~ ^~~~~~~
+keypad_scanner.c(96): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                LPC_GPIO1 ->DATA |= (scanCodes[rowd]);  // load the first value of the rows
+                                 ~~  ^~~~~~~~~~~~~~~
+keypad_scanner.c(125): warning: unused variable 'i' [-Wunused-variable]
+        int i;
+            ^
+keypad_scanner.c(133): warning: unused variable 'i' [-Wunused-variable]
+        int i;
+            ^
+keypad_scanner.c(148): warning: unused variable 'i' [-Wunused-variable]
+        int i;
+            ^
+keypad_scanner.c(167): warning: no previous prototype for function 'debounce' [-Wmissing-prototypes]
+void debounce(void)
+     ^
+./keypad_scanner.h(5): note: this declaration is not a prototype; add 'void' to make it a prototype for a zero-parameter function
+void debounce();
+     ^
+              void
+18 warnings generated.
+compiling keypad_scanner.c...
+ADC.c(21): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(110): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(147): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cmInstr.h(435): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+ADC.c(21): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(110): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(605): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    SCB->SHP[_SHP_IDX(IRQn)] = (SCB->SHP[_SHP_IDX(IRQn)] & ~(0xFF << _BIT_SHIFT(IRQn))) |
+                                                         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(608): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    NVIC->IP[_IP_IDX(IRQn)] = (NVIC->IP[_IP_IDX(IRQn)] & ~(0xFF << _BIT_SHIFT(IRQn))) |
+                                                       ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(639): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+ADC.c(21): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(311): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(309): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(362): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(367): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(371): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+ADC.c(55): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_ADC->INTEN &= ~(1<<8);  // check page 413
+                       ~~ ^~~~~~~
+10 warnings generated.
+compiling ADC.c...
+timer.c(1): warning: In file included from...
+./timer.h(1): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(110): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(147): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cmInstr.h(435): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+timer.c(1): warning: In file included from...
+./timer.h(1): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(110): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(605): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    SCB->SHP[_SHP_IDX(IRQn)] = (SCB->SHP[_SHP_IDX(IRQn)] & ~(0xFF << _BIT_SHIFT(IRQn))) |
+                                                         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(608): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    NVIC->IP[_IP_IDX(IRQn)] = (NVIC->IP[_IP_IDX(IRQn)] & ~(0xFF << _BIT_SHIFT(IRQn))) |
+                                                       ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(639): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+timer.c(1): warning: In file included from...
+./timer.h(1): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(311): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(309): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(362): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(367): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(371): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+timer.c(1): warning: In file included from...
+./timer.h(4): warning: no newline at end of file [-Wnewline-eof]
+void timer_init1(int);
+                      ^
+timer.c(21): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                LPC_TMR32B0->MR0 =frequency_init; // random value for an example
+                                 ~^~~~~~~~~~~~~~
+timer.c(52): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                LPC_TMR32B1->MR0 =Rate_init; // random value for an example
+                                 ~^~~~~~~~~
+12 warnings generated.
+compiling timer.c...
+assembling startup_LPC11xx.s...
+LCD_driver.c(16): warning: In file included from...
+./LCD_driver.h(1): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(110): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(147): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cmInstr.h(435): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+LCD_driver.c(16): warning: In file included from...
+./LCD_driver.h(1): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(110): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(605): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    SCB->SHP[_SHP_IDX(IRQn)] = (SCB->SHP[_SHP_IDX(IRQn)] & ~(0xFF << _BIT_SHIFT(IRQn))) |
+                                                         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(608): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    NVIC->IP[_IP_IDX(IRQn)] = (NVIC->IP[_IP_IDX(IRQn)] & ~(0xFF << _BIT_SHIFT(IRQn))) |
+                                                       ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(639): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+LCD_driver.c(16): warning: In file included from...
+./LCD_driver.h(1): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(311): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(309): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(362): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(367): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(371): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+LCD_driver.c(42): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO0 ->DATA &=~(data_line); // Clear data lines
+                         ~~^~~~~~~~~~~~
+LCD_driver.c(43): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO0 ->DATA &= ~(RS);                       // clear RS
+                         ~~ ^~~~~
+LCD_driver.c(44): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO1 ->DATA &= ~(E);        // clear E
+                         ~~ ^~~~
+LCD_driver.c(57): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO0 ->DATA |= (topHalf &(0xF))<<1 ; 
+                         ~~ ~~~~~~~~~~~~~~~~^~~
+LCD_driver.c(63): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO1 ->DATA &=~(E); // Put E low
+                         ~~^~~~
+LCD_driver.c(66): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO0 ->DATA &= ~(data_line);                                               // clears Data line      
+                         ~~ ^~~~~~~~~~~~
+LCD_driver.c(70): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO0 ->DATA |= (bottomHalf & (0xF))<<1;  
+                         ~~ ~~~~~~~~~~~~~~~~~~~~^~~
+LCD_driver.c(77): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO1 ->DATA &=~(E); // Put E low
+                         ~~^~~~
+LCD_driver.c(80): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO0 ->DATA &= ~(data_line); //Reset Data pins
+                         ~~ ^~~~~~~~~~~~
+LCD_driver.c(129): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO0 ->DATA &=~(data_line); // Clear data lines
+                         ~~^~~~~~~~~~~~
+LCD_driver.c(130): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO0 ->DATA &= ~(RS);                       // clear RS
+                         ~~ ^~~~~
+LCD_driver.c(131): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        LPC_GPIO1 ->DATA &= ~(E);        // clear E
+                         ~~ ^~~~
+LCD_driver.c(207): warning: implicit conversion increases floating-point precision: 'float' to 'double' [-Wdouble-promotion]
+        sprintf(buffer, "%.2f", number);  // turns a float into a string
+        ~~~~~~~                 ^~~~~~
+22 warnings generated.
+compiling LCD_driver.c...
+main.c(44): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(110): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(147): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cmInstr.h(435): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+main.c(44): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(110): warning: In file included from...
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(605): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    SCB->SHP[_SHP_IDX(IRQn)] = (SCB->SHP[_SHP_IDX(IRQn)] & ~(0xFF << _BIT_SHIFT(IRQn))) |
+                                                         ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(608): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    NVIC->IP[_IP_IDX(IRQn)] = (NVIC->IP[_IP_IDX(IRQn)] & ~(0xFF << _BIT_SHIFT(IRQn))) |
+                                                       ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Keil_v5/ARM/CMSIS/Include\core_cm0.h(639): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+main.c(44): warning: In file included from...
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(311): warning: anonymous structs are a C11 extension [-Wc11-extensions]
+    struct {
+    ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(309): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(362): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(367): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Keil_v5/ARM/INC/NXP/LPC11xx\LPC11xx.h(371): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+main.c(45): warning: In file included from...
+./timer.h(4): warning: no newline at end of file [-Wnewline-eof]
+void timer_init1(int);
+                      ^
+main.c(52): warning: In file included from...
+./keypad_scanner.h(5): warning: this function declaration is not a prototype [-Wstrict-prototypes]
+void debounce();
+             ^
+              void
+main.c(59): warning: no previous extern declaration for non-static variable 'counter' [-Wmissing-variable-declarations]
+        int counter=0;
+            ^
+main.c(59): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int counter=0;
+        ^
+main.c(62): warning: no previous extern declaration for non-static variable 'degree_symbol' [-Wmissing-variable-declarations]
+        char degree_symbol = 0xDF;  // 0xDF is the degree symbol on Hitatchi HD44780 driver
+             ^
+main.c(62): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        char degree_symbol = 0xDF;  // 0xDF is the degree symbol on Hitatchi HD44780 driver
+        ^
+main.c(67): warning: no previous extern declaration for non-static variable 'Sfrequency_num' [-Wmissing-variable-declarations]
+        int Sfrequency_num=0;    // tracks the number
+            ^
+main.c(67): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int Sfrequency_num=0;    // tracks the number
+        ^
+main.c(68): warning: no previous extern declaration for non-static variable 'Srate_num' [-Wmissing-variable-declarations]
+        float Srate_num=0;
+              ^
+main.c(68): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        float Srate_num=0;
+        ^
+main.c(69): warning: no previous extern declaration for non-static variable 'Average_num' [-Wmissing-variable-declarations]
+        int Average_num=0;
+            ^
+main.c(69): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int Average_num=0;
+        ^
+main.c(70): warning: no previous extern declaration for non-static variable 'interrupt' [-Wmissing-variable-declarations]
+  int interrupt = 0;
+      ^
+main.c(70): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+  int interrupt = 0;
+  ^
+main.c(72): warning: no previous extern declaration for non-static variable 'change_me' [-Wmissing-variable-declarations]
+        int change_me=0;      // Global variable  for changing from F to C
+            ^
+main.c(72): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int change_me=0;      // Global variable  for changing from F to C
+        ^
+main.c(76): warning: no previous extern declaration for non-static variable 'increase' [-Wmissing-variable-declarations]
+  int increase=0;
+      ^
+main.c(76): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+  int increase=0;
+  ^
+main.c(78): warning: no previous extern declaration for non-static variable 'count_num' [-Wmissing-variable-declarations]
+        int count_num=0;
+            ^
+main.c(78): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int count_num=0;
+        ^
+main.c(79): warning: no previous extern declaration for non-static variable 'sample' [-Wmissing-variable-declarations]
+        int sample=0;
+            ^
+main.c(79): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int sample=0;
+        ^
+main.c(80): warning: no previous extern declaration for non-static variable 'count_D' [-Wmissing-variable-declarations]
+  int count_D=0;
+      ^
+main.c(80): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+  int count_D=0;
+  ^
+main.c(84): warning: no previous extern declaration for non-static variable 'ADC_value' [-Wmissing-variable-declarations]
+        int ADC_value=0;
+            ^
+main.c(84): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int ADC_value=0;
+        ^
+main.c(86): warning: no previous extern declaration for non-static variable 'running_sum' [-Wmissing-variable-declarations]
+        int running_sum=0;
+            ^
+main.c(86): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int running_sum=0;
+        ^
+main.c(88): warning: no previous extern declaration for non-static variable 'count' [-Wmissing-variable-declarations]
+  int count=0;
+      ^
+main.c(88): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+  int count=0;
+  ^
+main.c(90): warning: no previous extern declaration for non-static variable 'ADC_value_Srate' [-Wmissing-variable-declarations]
+int ADC_value_Srate=0;
+    ^
+main.c(90): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int ADC_value_Srate=0;
+^
+main.c(91): warning: no previous extern declaration for non-static variable 'running_sum_Srate' [-Wmissing-variable-declarations]
+int running_sum_Srate=0;
+    ^
+main.c(91): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int running_sum_Srate=0;
+^
+main.c(93): warning: no previous extern declaration for non-static variable 'counter2' [-Wmissing-variable-declarations]
+int counter2=0;   //Counts for Timer handler 1
+    ^
+main.c(93): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int counter2=0;   //Counts for Timer handler 1
+^
+main.c(99): warning: no previous extern declaration for non-static variable 'UART_received_flag' [-Wmissing-variable-declarations]
+char UART_received_flag = 0;
+     ^
+main.c(99): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char UART_received_flag = 0;
+^
+main.c(100): warning: no previous extern declaration for non-static variable 'UART_received_index' [-Wmissing-variable-declarations]
+char UART_received_index = 0; 
+     ^
+main.c(100): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char UART_received_index = 0; 
+^
+main.c(101): warning: no previous extern declaration for non-static variable 'UART_received_byte' [-Wmissing-variable-declarations]
+char UART_received_byte = 0;
+     ^
+main.c(101): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char UART_received_byte = 0;
+^
+main.c(117): warning: declaration shadows a variable in the global scope [-Wshadow]
+                         int delay;
+                             ^
+main.c(87): note: previous declaration is here
+        int delay;
+            ^
+main.c(389): warning: implicit conversion when assigning computation result loses floating-point precision: 'double' to 'float' [-Wimplicit-float-conversion]
+                                                           Srate_num *=0.1;
+                                                                     ~~^~~
+main.c(390): warning: implicit conversion increases floating-point precision: 'float' to 'double' [-Wdouble-promotion]
+                                                                if(Srate_num>=0.1&& Srate_num<=10)
+                                                                   ^~~~~~~~~~~
+main.c(393): warning: implicit conversion turns floating-point number into integer: 'float' to 'int' [-Wfloat-conversion]
+                                                                                                  timer_init1(Srate_num);
+                                                                                                  ~~~~~~~~~~~ ^~~~~~~~~
+main.c(409): warning: explicitly assigning value of variable of type 'int' to itself [-Wself-assign]
+                                                               Average_num=Average_num;
+                                                               ~~~~~~~~~~~^~~~~~~~~~~~
+main.c(117): warning: unused variable 'delay' [-Wunused-variable]
+                         int delay;
+                             ^
+main.c(109): warning: no previous prototype for function 'PIOINT0_IRQHandler' [-Wmissing-prototypes]
+void PIOINT0_IRQHandler(void)  // interrupt handler for Port 0  (from LPC11xx.h)
+     ^
+main.c(109): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void PIOINT0_IRQHandler(void)  // interrupt handler for Port 0  (from LPC11xx.h)
+^
+static 
+main.c(317): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 28 [-Wfortify-source]
+           sprintf(transmit_string_buffer, "Enter sampling frequency \n\r");
+           ^
+main.c(333): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 23 [-Wfortify-source]
+                                         sprintf(transmit_string_buffer, "Enter sampling Rate \n\r");
+                                         ^
+main.c(358): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 23 [-Wfortify-source]
+                                         sprintf(transmit_string_buffer, "Enter sampling Rate \n\r");
+                                         ^
+main.c(458): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 34 [-Wfortify-source]
+                    sprintf(transmit_string_buffer, "A for enter sampling frequency \n\r");
+                    ^
+main.c(460): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 27 [-Wfortify-source]
+                sprintf(transmit_string_buffer, "B for enter display rate\n\r");
+                ^
+main.c(462): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 24 [-Wfortify-source]
+                sprintf(transmit_string_buffer, "C for average length \n\r");
+                ^
+main.c(464): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 37 [-Wfortify-source]
+                 sprintf(transmit_string_buffer, "* to return main menu at any time n\r");
+                 ^
+main.c(514): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+                                        temp = 3.33 / (1023 / ADC_value) *100; // The temperature is now in celsius
+                                             ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+main.c(515): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+                      temp = temp * 1.8 + 32; // converted into farenheit
+                           ~ ~~~~~~~~~~~^~~~
+main.c(523): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+                                        temp = 3.33 / (1023 / ADC_value) *100; // The temperature is now in celsius
+                                             ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+main.c(555): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                LPC_GPIO1-> DATA &=~(0x20); // Make low
+                                                 ~~^~~~~~~
+main.c(496): warning: no previous prototype for function 'TIMER32_0_IRQHandler' [-Wmissing-prototypes]
+void TIMER32_0_IRQHandler(void)
+     ^
+main.c(496): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void TIMER32_0_IRQHandler(void)
+^
+static 
+main.c(574): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 40 [-Wfortify-source]
+                                        sprintf(transmit_string_buffer, "Temp from Frequency in Fahrenhiet: %d.\n\r", average);
+                                        ^
+main.c(580): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 24 [-Wfortify-source]
+                                        sprintf(transmit_string_buffer, "Degress in Celcuis %d.\n\r",average );
+                                        ^
+main.c(619): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+                                        temp_Srate = 3.33 / (1023 / ADC_value) *100; // The temperature is now in celsius
+                                                   ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+main.c(620): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+                      temp_Srate = temp * 1.8 + 32; // converted into farenheit
+                                 ~ ~~~~~~~~~~~^~~~
+main.c(628): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+                                        temp_Srate = 3.33 / (1023 / ADC_value) *100; // The temperature is now in celsius
+                                                   ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+main.c(636): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                LPC_GPIO1-> DATA &=~(0x20); // Make low
+                                                 ~~^~~~~~~
+main.c(646): warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+            if (counter2==Srate_num)
+                ~~~~~~~~^ ~~~~~~~~~
+main.c(646): warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+            if (counter2==Srate_num)
+                ^~~~~~~~~~
+main.c(648): warning: implicit conversion turns floating-point number into integer: 'float' to 'int' [-Wfloat-conversion]
+                                 average_Srate = running_sum /Srate_num;
+                                               ~ ~~~~~~~~~~~~^~~~~~~~~~
+main.c(648): warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+                                 average_Srate = running_sum /Srate_num;
+                                                 ^~~~~~~~~~~ ~
+main.c(606): warning: no previous prototype for function 'TIMER32_1_IRQHandler' [-Wmissing-prototypes]
+void TIMER32_1_IRQHandler(void)
+     ^
+main.c(606): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void TIMER32_1_IRQHandler(void)
+^
+static 
+main.c(659): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 35 [-Wfortify-source]
+                                      sprintf(transmit_string_buffer, "Temp from Rate in Fahrenhiet: %d.\n\r", average_Srate);
+                                      ^
+main.c(693): warning: implicit conversion loses integer precision: 'const volatile uint32_t' (aka 'const volatile unsigned int') to 'char' [-Wimplicit-int-conversion]
+        UART_received_byte = LPC_UART -> RBR; // read in the byte
+                           ~ ~~~~~~~~~~~~^~~
+main.c(702): warning: array subscript is of type 'char' [-Wchar-subscripts]
+                received_string[UART_received_index] = '\0'; // place null character at end of string 
+                               ^~~~~~~~~~~~~~~~~~~~
+main.c(706): warning: array subscript is of type 'char' [-Wchar-subscripts]
+                UART_received_buffer[UART_received_index] = UART_received_byte;
+                                    ^~~~~~~~~~~~~~~~~~~~
+main.c(690): warning: no previous prototype for function 'UART_IRQHandler' [-Wmissing-prototypes]
+void UART_IRQHandler(void)
+     ^
+main.c(690): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void UART_IRQHandler(void)
+^
+static 
+main.c(916): warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+                                           Srate_num=received_number;
+                                                    ~^~~~~~~~~~~~~~~
+main.c(724): warning: unused variable 'c' [-Wunused-variable]
+        char c = 'B';
+             ^
+main.c(725): warning: unused variable 'number' [-Wunused-variable]
+        int number = 15; 
+            ^
+main.c(770): warning: unused variable 'Averagenum' [-Wunused-variable]
+        int Averagenum=0;
+            ^
+main.c(745): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 34 [-Wfortify-source]
+        sprintf(transmit_string_buffer, "A for enter sampling frequency \n\r");
+        ^
+main.c(747): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 27 [-Wfortify-source]
+        sprintf(transmit_string_buffer, "B for enter display rate\n\r");
+        ^
+main.c(749): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 24 [-Wfortify-source]
+        sprintf(transmit_string_buffer, "C for average length \n\r");
+        ^
+main.c(751): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 37 [-Wfortify-source]
+        sprintf(transmit_string_buffer, "* to return main menu at any time n\r");
+        ^
+main.c(898): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 34 [-Wfortify-source]
+                    sprintf(transmit_string_buffer, "A for enter sampling frequency \n\r");
+                    ^
+main.c(900): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 27 [-Wfortify-source]
+                sprintf(transmit_string_buffer, "B for enter display rate\n\r");
+                ^
+main.c(902): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 24 [-Wfortify-source]
+                sprintf(transmit_string_buffer, "C for average length \n\r");
+                ^
+main.c(904): warning: 'sprintf' will always overflow; destination buffer has size 20, but format string expands to at least 37 [-Wfortify-source]
+                 sprintf(transmit_string_buffer, "* to return main menu at any time n\r");
+                 ^
+main.c(974): warning: 'return' will never be executed [-Wunreachable-code-return]
+        return 0;
+               ^
+main.c(60): warning: no previous extern declaration for non-static variable 'average' [-Wmissing-variable-declarations]
+        int average;
+            ^
+main.c(60): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int average;
+        ^
+main.c(61): warning: no previous extern declaration for non-static variable 'average_Srate' [-Wmissing-variable-declarations]
+        int average_Srate;
+            ^
+main.c(61): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int average_Srate;
+        ^
+main.c(63): warning: no previous extern declaration for non-static variable 'LED' [-Wmissing-variable-declarations]
+        int LED;  //Flag to turn on LED
+            ^
+main.c(63): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int LED;  //Flag to turn on LED
+        ^
+main.c(71): warning: no previous extern declaration for non-static variable 'timer_interrupt' [-Wmissing-variable-declarations]
+        int timer_interrupt;
+            ^
+main.c(71): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int timer_interrupt;
+        ^
+main.c(73): warning: no previous extern declaration for non-static variable 'pressed_letter' [-Wmissing-variable-declarations]
+        char pressed_letter;
+             ^
+main.c(73): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        char pressed_letter;
+        ^
+main.c(74): warning: no previous extern declaration for non-static variable 'key' [-Wmissing-variable-declarations]
+  char key;
+       ^
+main.c(74): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+  char key;
+  ^
+main.c(75): warning: no previous extern declaration for non-static variable 'keyvalue' [-Wmissing-variable-declarations]
+  char keyvalue;
+       ^
+main.c(75): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+  char keyvalue;
+  ^
+main.c(77): warning: no previous extern declaration for non-static variable 'number1' [-Wmissing-variable-declarations]
+        int number1;int number2;int number3;
+            ^
+main.c(77): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int number1;int number2;int number3;
+        ^
+main.c(77): warning: no previous extern declaration for non-static variable 'number2' [-Wmissing-variable-declarations]
+        int number1;int number2;int number3;
+                        ^
+main.c(77): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int number1;int number2;int number3;
+                    ^
+main.c(77): warning: no previous extern declaration for non-static variable 'number3' [-Wmissing-variable-declarations]
+        int number1;int number2;int number3;
+                                    ^
+main.c(77): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int number1;int number2;int number3;
+                                ^
+main.c(85): warning: no previous extern declaration for non-static variable 'temp' [-Wmissing-variable-declarations]
+        int temp;
+            ^
+main.c(85): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int temp;
+        ^
+main.c(87): warning: no previous extern declaration for non-static variable 'delay' [-Wmissing-variable-declarations]
+        int delay;
+            ^
+main.c(87): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+        int delay;
+        ^
+main.c(92): warning: no previous extern declaration for non-static variable 'temp_Srate' [-Wmissing-variable-declarations]
+int temp_Srate;
+    ^
+main.c(92): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int temp_Srate;
+^
+main.c(96): warning: no previous extern declaration for non-static variable 'transmit_string_buffer' [-Wmissing-variable-declarations]
+char transmit_string_buffer[BUFFER_SIZE]; // no strings in c language, so use a char array
+     ^
+main.c(96): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char transmit_string_buffer[BUFFER_SIZE]; // no strings in c language, so use a char array
+^
+main.c(97): warning: no previous extern declaration for non-static variable 'UART_received_buffer' [-Wmissing-variable-declarations]
+char UART_received_buffer[BUFFER_SIZE];
+     ^
+main.c(97): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char UART_received_buffer[BUFFER_SIZE];
+^
+main.c(98): warning: no previous extern declaration for non-static variable 'received_string' [-Wmissing-variable-declarations]
+char received_string[BUFFER_SIZE];
+     ^
+main.c(98): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char received_string[BUFFER_SIZE];
+^
+95 warnings generated.
+compiling main.c...
+linking...
+.\Objects\FinalProject.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_lpc11xx.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+".\Objects\FinalProject.axf" - 1 Error(s), 167 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

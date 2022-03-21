@@ -1,0 +1,76 @@
+Dependencies for Project 'Timer_UART.uvproj', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\startup_LPC11xx.s)(0x5ABC2364)(--cpu Cortex-M0 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx--pd "__UVISION_VERSION SETA 531"--list .\listings\startup_lpc11xx.lst --xref -o .\objects\startup_lpc11xx.o --depend .\objects\startup_lpc11xx.d)
+F (C:\Keil_v5\ARM\Startup\NXP\LPC11xx\system_LPC11xx.c)(0x5FA713EF)(--c99 -c --cpu Cortex-M0 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx-D__UVISION_VERSION="531"-o .\objects\system_lpc11xx.o --omf_browse .\objects\system_lpc11xx.crf --depend .\objects\system_lpc11xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC82CCC)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\LPC11xx.h)(0x559D9878)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\system_LPC11xx.h)(0x570412E2)
+F (.\main.c)(0x5FD53893)(--c99 -c --cpu Cortex-M0 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx-D__UVISION_VERSION="531"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\system_LPC11xx.h)(0x570412E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC82CCC)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\LPC11xx.h)(0x559D9878)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559DA26A)
+I (timer.h)(0x5FC8DEBD)
+I (UART.h)(0x5BE88362)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC82CCC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC82CD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC82CCC)
+I (ADC.h)(0x5ABB95BA)
+I (LCD_driver.h)(0x5FD52E22)
+I (keypad_scanner.h)(0x5FC8D50B)
+F (.\timer.h)(0x5FC8DEBD)()
+F (.\timer.c)(0x5FC95AE8)(--c99 -c --cpu Cortex-M0 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx-D__UVISION_VERSION="531"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (timer.h)(0x5FC8DEBD)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\LPC11xx.h)(0x559D9878)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC82CCC)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\system_LPC11xx.h)(0x570412E2)
+F (.\UART.c)(0x5BEB08DA)(--c99 -c --cpu Cortex-M0 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx-D__UVISION_VERSION="531"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (UART.h)(0x5BE88362)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\LPC11xx.h)(0x559D9878)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC82CCC)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\system_LPC11xx.h)(0x570412E2)
+F (.\UART.h)(0x5BE88362)()
+F (.\ADC.c)(0x5FB388E5)(--c99 -c --cpu Cortex-M0 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx-D__UVISION_VERSION="531"-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (ADC.h)(0x5ABB95BA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\LPC11xx.h)(0x559D9878)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC82CCC)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\system_LPC11xx.h)(0x570412E2)
+F (.\ADC.h)(0x5ABB95BA)()
+F (.\LCD_driver.c)(0x5FD52E21)(--c99 -c --cpu Cortex-M0 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx-D__UVISION_VERSION="531"-o .\objects\lcd_driver.o --omf_browse .\objects\lcd_driver.crf --depend .\objects\lcd_driver.d)
+I (LCD_driver.h)(0x5FD52E22)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\LPC11xx.h)(0x559D9878)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC82CCC)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\system_LPC11xx.h)(0x570412E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC82CCC)
+F (.\LCD_driver.h)(0x5FD52E22)()
+F (.\keypad_scanner.c)(0x5FCC70F1)(--c99 -c --cpu Cortex-M0 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC11xx-D__UVISION_VERSION="531"-o .\objects\keypad_scanner.o --omf_browse .\objects\keypad_scanner.crf --depend .\objects\keypad_scanner.d)
+I (keypad_scanner.h)(0x5FC8D50B)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\LPC11xx.h)(0x559D9878)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC82CCC)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559DA26A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC11xx\system_LPC11xx.h)(0x570412E2)
+I (LCD_driver.h)(0x5FD52E22)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC82CCC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC82CD4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC82CCC)
+I (UART.h)(0x5BE88362)
+F (.\keypad_scanner.h)(0x5FC8D50B)()

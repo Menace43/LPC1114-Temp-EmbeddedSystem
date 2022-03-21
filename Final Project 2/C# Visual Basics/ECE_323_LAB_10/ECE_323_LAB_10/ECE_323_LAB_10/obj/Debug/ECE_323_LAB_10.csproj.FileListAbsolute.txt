@@ -1,0 +1,57 @@
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ECE_323_LAB_10.exe.config
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ECE_323_LAB_10.exe
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ECE_323_LAB_10.pdb
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.csprojAssemblyReference.cache
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.Form1.resources
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.Bluetooth_Settings.resources
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.Properties.Resources.resources
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.csproj.GenerateResource.cache
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.csproj.CoreCompileInputs.cache
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.exe
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.pdb
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ZedGraph.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ZedGraph.Web.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ZedGraph.xml
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ZedGraph.Web.xml
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Moffat\Desktop\Fall 2020\ECE 323\LAB 10\Studio\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.csproj.CopyComplete
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ECE_323_LAB_10.exe.config
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ECE_323_LAB_10.exe
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ECE_323_LAB_10.pdb
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ZedGraph.xml
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ZedGraph.Web.xml
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.csprojAssemblyReference.cache
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.Form1.resources
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.Bluetooth_Settings.resources
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.Properties.Resources.resources
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.csproj.GenerateResource.cache
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.csproj.CoreCompileInputs.cache
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.csproj.CopyComplete
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.exe
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.pdb
+C:\Users\Joel\Downloads\ECE_323_LAB_10\ECE_323_LAB_10\ECE_323_LAB_10\obj\Debug\ECE_323_LAB_10.csproj.ResolveComReference.cache

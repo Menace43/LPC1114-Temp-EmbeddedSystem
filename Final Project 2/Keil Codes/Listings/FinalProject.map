@@ -1,0 +1,778 @@
+Component: ARM Compiler 6.14 Tool: armlink [5db06800]
+
+==============================================================================
+
+Section Cross References
+
+    adc.o(.ARM.exidx.text.adc_init) refers to adc.o(.text.adc_init) for [Anonymous Symbol]
+    keypad_scanner.o(.ARM.exidx.text.groundRows) refers to keypad_scanner.o(.text.groundRows) for [Anonymous Symbol]
+    keypad_scanner.o(.text.keypad_init) refers to keypad_scanner.o(.text.groundRows) for groundRows
+    keypad_scanner.o(.text.keypad_init) refers to keypad_scanner.o(.text.NVIC_EnableIRQ) for NVIC_EnableIRQ
+    keypad_scanner.o(.ARM.exidx.text.keypad_init) refers to keypad_scanner.o(.text.keypad_init) for [Anonymous Symbol]
+    keypad_scanner.o(.ARM.exidx.text.NVIC_EnableIRQ) refers to keypad_scanner.o(.text.NVIC_EnableIRQ) for [Anonymous Symbol]
+    keypad_scanner.o(.text.scanner) refers to keypad_scanner.o(.text.groundRows) for groundRows
+    keypad_scanner.o(.text.scanner) refers to keypad_scanner.o(.rodata.cst16) for .L__const.scanner.scanCodes
+    keypad_scanner.o(.ARM.exidx.text.scanner) refers to keypad_scanner.o(.text.scanner) for [Anonymous Symbol]
+    keypad_scanner.o(.text.Enter_Sfrequency) refers to lcd_driver.o(.text.LCD_print_string) for LCD_print_string
+    keypad_scanner.o(.text.Enter_Sfrequency) refers to lcd_driver.o(.text.LCD_command) for LCD_command
+    keypad_scanner.o(.ARM.exidx.text.Enter_Sfrequency) refers to keypad_scanner.o(.text.Enter_Sfrequency) for [Anonymous Symbol]
+    keypad_scanner.o(.text.Display_screen) refers to lcd_driver.o(.text.LCD_print_string) for LCD_print_string
+    keypad_scanner.o(.text.Display_screen) refers to lcd_driver.o(.text.LCD_command) for LCD_command
+    keypad_scanner.o(.ARM.exidx.text.Display_screen) refers to keypad_scanner.o(.text.Display_screen) for [Anonymous Symbol]
+    keypad_scanner.o(.text.Display_instruct) refers to lcd_driver.o(.text.LCD_print_string) for LCD_print_string
+    keypad_scanner.o(.text.Display_instruct) refers to lcd_driver.o(.text.LCD_command) for LCD_command
+    keypad_scanner.o(.ARM.exidx.text.Display_instruct) refers to keypad_scanner.o(.text.Display_instruct) for [Anonymous Symbol]
+    keypad_scanner.o(.ARM.exidx.text.debounce) refers to keypad_scanner.o(.text.debounce) for [Anonymous Symbol]
+    lcd_driver.o(.text) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.text) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.text) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.text) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.text) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.text.LCD_command) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.text.LCD_command) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.text.LCD_command) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.text.LCD_command) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.text.LCD_command) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.ARM.exidx.text.LCD_command) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.ARM.exidx.text.LCD_command) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.ARM.exidx.text.LCD_command) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_command) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_command) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.ARM.exidx.text.LCD_command) refers to lcd_driver.o(.text.LCD_command) for [Anonymous Symbol]
+    lcd_driver.o(.text.LCD_init) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.text.LCD_init) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.text.LCD_init) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.text.LCD_init) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.text.LCD_init) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.text.LCD_init) refers to lcd_driver.o(.text.LCD_command) for LCD_command
+    lcd_driver.o(.ARM.exidx.text.LCD_init) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.ARM.exidx.text.LCD_init) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.ARM.exidx.text.LCD_init) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_init) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_init) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.ARM.exidx.text.LCD_init) refers to lcd_driver.o(.text.LCD_init) for [Anonymous Symbol]
+    lcd_driver.o(.text.LCD_cursor) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.text.LCD_cursor) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.text.LCD_cursor) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.text.LCD_cursor) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.text.LCD_cursor) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.text.LCD_cursor) refers to lcd_driver.o(.text.LCD_command) for LCD_command
+    lcd_driver.o(.ARM.exidx.text.LCD_cursor) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.ARM.exidx.text.LCD_cursor) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.ARM.exidx.text.LCD_cursor) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_cursor) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_cursor) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.ARM.exidx.text.LCD_cursor) refers to lcd_driver.o(.text.LCD_cursor) for [Anonymous Symbol]
+    lcd_driver.o(.text.LCD_print_string) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.text.LCD_print_string) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.text.LCD_print_string) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.text.LCD_print_string) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.text.LCD_print_string) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.text.LCD_print_string) refers to lcd_driver.o(.text.LCD_command) for LCD_command
+    lcd_driver.o(.ARM.exidx.text.LCD_print_string) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.ARM.exidx.text.LCD_print_string) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.ARM.exidx.text.LCD_print_string) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_print_string) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_print_string) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.ARM.exidx.text.LCD_print_string) refers to lcd_driver.o(.text.LCD_print_string) for [Anonymous Symbol]
+    lcd_driver.o(.text.LCD_clear) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.text.LCD_clear) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.text.LCD_clear) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.text.LCD_clear) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.text.LCD_clear) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.text.LCD_clear) refers to lcd_driver.o(.text.LCD_command) for LCD_command
+    lcd_driver.o(.ARM.exidx.text.LCD_clear) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.ARM.exidx.text.LCD_clear) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.ARM.exidx.text.LCD_clear) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_clear) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_clear) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.ARM.exidx.text.LCD_clear) refers to lcd_driver.o(.text.LCD_clear) for [Anonymous Symbol]
+    lcd_driver.o(.text.LCD_print_char) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.text.LCD_print_char) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.text.LCD_print_char) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.text.LCD_print_char) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.text.LCD_print_char) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.text.LCD_print_char) refers to lcd_driver.o(.text.LCD_command) for LCD_command
+    lcd_driver.o(.ARM.exidx.text.LCD_print_char) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.ARM.exidx.text.LCD_print_char) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.ARM.exidx.text.LCD_print_char) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_print_char) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_print_char) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.ARM.exidx.text.LCD_print_char) refers to lcd_driver.o(.text.LCD_print_char) for [Anonymous Symbol]
+    lcd_driver.o(.text.LCD_print_number) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.text.LCD_print_number) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.text.LCD_print_number) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.text.LCD_print_number) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.text.LCD_print_number) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.text.LCD_print_number) refers to noretval__2sprintf.o(.text) for __2sprintf
+    lcd_driver.o(.text.LCD_print_number) refers to lcd_driver.o(.text.LCD_print_string) for LCD_print_string
+    lcd_driver.o(.ARM.exidx.text.LCD_print_number) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.ARM.exidx.text.LCD_print_number) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.ARM.exidx.text.LCD_print_number) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_print_number) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_print_number) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.ARM.exidx.text.LCD_print_number) refers to lcd_driver.o(.text.LCD_print_number) for [Anonymous Symbol]
+    lcd_driver.o(.text.LCD_print_float) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.text.LCD_print_float) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.text.LCD_print_float) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.text.LCD_print_float) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.text.LCD_print_float) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.text.LCD_print_float) refers to f2d.o(.text) for __aeabi_f2d
+    lcd_driver.o(.text.LCD_print_float) refers to noretval__2sprintf.o(.text) for __2sprintf
+    lcd_driver.o(.text.LCD_print_float) refers to lcd_driver.o(.text.LCD_print_string) for LCD_print_string
+    lcd_driver.o(.ARM.exidx.text.LCD_print_float) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    lcd_driver.o(.ARM.exidx.text.LCD_print_float) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    lcd_driver.o(.ARM.exidx.text.LCD_print_float) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_print_float) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    lcd_driver.o(.ARM.exidx.text.LCD_print_float) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    lcd_driver.o(.ARM.exidx.text.LCD_print_float) refers to lcd_driver.o(.text.LCD_print_float) for [Anonymous Symbol]
+    main.o(.text) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.text) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.text) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.text.PIOINT0_IRQHandler) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.text.PIOINT0_IRQHandler) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.text.PIOINT0_IRQHandler) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.text.NVIC_DisableIRQ) for NVIC_DisableIRQ
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.text.NVIC_ClearPendingIRQ) for NVIC_ClearPendingIRQ
+    main.o(.text.PIOINT0_IRQHandler) refers to keypad_scanner.o(.text.scanner) for scanner
+    main.o(.text.PIOINT0_IRQHandler) refers to keypad_scanner.o(.text.debounce) for debounce
+    main.o(.text.PIOINT0_IRQHandler) refers to lcd_driver.o(.text.LCD_print_char) for LCD_print_char
+    main.o(.text.PIOINT0_IRQHandler) refers to lcd_driver.o(.text.LCD_clear) for LCD_clear
+    main.o(.text.PIOINT0_IRQHandler) refers to timer.o(.text.timer_init) for timer_init
+    main.o(.text.PIOINT0_IRQHandler) refers to lcd_driver.o(.text.LCD_command) for LCD_command
+    main.o(.text.PIOINT0_IRQHandler) refers to fmul.o(x$fpl$fmul) for __aeabi_fmul
+    main.o(.text.PIOINT0_IRQHandler) refers to timer.o(.text.timer_init1) for timer_init1
+    main.o(.text.PIOINT0_IRQHandler) refers to keypad_scanner.o(.text.Display_instruct) for Display_instruct
+    main.o(.text.PIOINT0_IRQHandler) refers to uart.o(.text.UART_send_string) for UART_send_string
+    main.o(.text.PIOINT0_IRQHandler) refers to lcd_driver.o(.text.LCD_init) for LCD_init
+    main.o(.text.PIOINT0_IRQHandler) refers to keypad_scanner.o(.text.Enter_Sfrequency) for Enter_Sfrequency
+    main.o(.text.PIOINT0_IRQHandler) refers to lcd_driver.o(.text.LCD_print_string) for LCD_print_string
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.bss.interrupt) for interrupt
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.bss.key) for key
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.bss.keyvalue) for keyvalue
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.bss.pressed_letter) for pressed_letter
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.bss.Sfrequency_num) for Sfrequency_num
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.bss.count_num) for count_num
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.bss.Average_num) for Average_num
+    main.o(.text.PIOINT0_IRQHandler) refers to faddsub.o(x$fpl$fadd) for __aeabi_fadd
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.text.NVIC_EnableIRQ) for NVIC_EnableIRQ
+    main.o(.text.PIOINT0_IRQHandler) refers to keypad_scanner.o(.text.groundRows) for groundRows
+    main.o(.text.PIOINT0_IRQHandler) refers to f2d.o(.text) for __aeabi_f2d
+    main.o(.text.PIOINT0_IRQHandler) refers to dmul.o(.text) for __aeabi_dmul
+    main.o(.text.PIOINT0_IRQHandler) refers to d2f.o(.text) for __aeabi_d2f
+    main.o(.text.PIOINT0_IRQHandler) refers to fcmp.o(i._fgr) for __aeabi_fcmpgt
+    main.o(.text.PIOINT0_IRQHandler) refers to dcmp.o(i._dls) for __aeabi_dcmplt
+    main.o(.text.PIOINT0_IRQHandler) refers to ffixi.o(.text) for __aeabi_f2iz
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.rodata.str1.4) for .L.str.5
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.bss.transmit_string_buffer) for transmit_string_buffer
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.bss.count_D) for count_D
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.rodata.str1.1) for .L.str.4
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.bss.Srate_num) for Srate_num
+    main.o(.text.PIOINT0_IRQHandler) refers to main.o(.bss.increase) for increase
+    main.o(.ARM.exidx.text.PIOINT0_IRQHandler) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.ARM.exidx.text.PIOINT0_IRQHandler) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.ARM.exidx.text.PIOINT0_IRQHandler) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.ARM.exidx.text.PIOINT0_IRQHandler) refers to main.o(.text.PIOINT0_IRQHandler) for [Anonymous Symbol]
+    main.o(.text.NVIC_DisableIRQ) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.text.NVIC_DisableIRQ) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.text.NVIC_DisableIRQ) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.ARM.exidx.text.NVIC_DisableIRQ) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.ARM.exidx.text.NVIC_DisableIRQ) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.ARM.exidx.text.NVIC_DisableIRQ) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.ARM.exidx.text.NVIC_DisableIRQ) refers to main.o(.text.NVIC_DisableIRQ) for [Anonymous Symbol]
+    main.o(.text.NVIC_ClearPendingIRQ) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.text.NVIC_ClearPendingIRQ) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.text.NVIC_ClearPendingIRQ) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.ARM.exidx.text.NVIC_ClearPendingIRQ) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.ARM.exidx.text.NVIC_ClearPendingIRQ) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.ARM.exidx.text.NVIC_ClearPendingIRQ) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.ARM.exidx.text.NVIC_ClearPendingIRQ) refers to main.o(.text.NVIC_ClearPendingIRQ) for [Anonymous Symbol]
+    main.o(.text.NVIC_EnableIRQ) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.text.NVIC_EnableIRQ) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.text.NVIC_EnableIRQ) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.ARM.exidx.text.NVIC_EnableIRQ) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.ARM.exidx.text.NVIC_EnableIRQ) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.ARM.exidx.text.NVIC_EnableIRQ) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.ARM.exidx.text.NVIC_EnableIRQ) refers to main.o(.text.NVIC_EnableIRQ) for [Anonymous Symbol]
+    main.o(.text.TIMER32_0_IRQHandler) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.text.TIMER32_0_IRQHandler) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.text.TIMER32_0_IRQHandler) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.text.TIMER32_0_IRQHandler) refers to aeabi_sdivfast.o(.text_divfast) for __aeabi_uidiv
+    main.o(.text.TIMER32_0_IRQHandler) refers to dflti.o(.text) for __aeabi_i2d
+    main.o(.text.TIMER32_0_IRQHandler) refers to ddiv.o(.text) for __aeabi_ddiv
+    main.o(.text.TIMER32_0_IRQHandler) refers to dmul.o(.text) for __aeabi_dmul
+    main.o(.text.TIMER32_0_IRQHandler) refers to dfixi.o(.text) for __aeabi_d2iz
+    main.o(.text.TIMER32_0_IRQHandler) refers to daddsub.o(.text) for __aeabi_dadd
+    main.o(.text.TIMER32_0_IRQHandler) refers to lcd_driver.o(.text.LCD_clear) for LCD_clear
+    main.o(.text.TIMER32_0_IRQHandler) refers to lcd_driver.o(.text.LCD_print_number) for LCD_print_number
+    main.o(.text.TIMER32_0_IRQHandler) refers to lcd_driver.o(.text.LCD_print_char) for LCD_print_char
+    main.o(.text.TIMER32_0_IRQHandler) refers to lcd_driver.o(.text.LCD_print_string) for LCD_print_string
+    main.o(.text.TIMER32_0_IRQHandler) refers to noretval__2sprintf.o(.text) for __2sprintf
+    main.o(.text.TIMER32_0_IRQHandler) refers to uart.o(.text.UART_send_string) for UART_send_string
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.text.NVIC_DisableIRQ) for NVIC_DisableIRQ
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.text.NVIC_ClearPendingIRQ) for NVIC_ClearPendingIRQ
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.text.NVIC_EnableIRQ) for NVIC_EnableIRQ
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.bss.change_me) for change_me
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.bss.ADC_value) for ADC_value
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.bss.temp) for temp
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.bss.counter) for counter
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.bss.running_sum) for running_sum
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.bss.Average_num) for Average_num
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.bss.average) for average
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.data.degree_symbol) for degree_symbol
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.rodata.str1.1) for .L.str.9
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.bss.LED) for LED
+    main.o(.text.TIMER32_0_IRQHandler) refers to main.o(.bss.transmit_string_buffer) for transmit_string_buffer
+    main.o(.ARM.exidx.text.TIMER32_0_IRQHandler) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.ARM.exidx.text.TIMER32_0_IRQHandler) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.ARM.exidx.text.TIMER32_0_IRQHandler) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.ARM.exidx.text.TIMER32_0_IRQHandler) refers to main.o(.text.TIMER32_0_IRQHandler) for [Anonymous Symbol]
+    main.o(.text.TIMER32_1_IRQHandler) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.text.TIMER32_1_IRQHandler) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.text.TIMER32_1_IRQHandler) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.text.TIMER32_1_IRQHandler) refers to dflti.o(.text) for __aeabi_i2d
+    main.o(.text.TIMER32_1_IRQHandler) refers to dmul.o(.text) for __aeabi_dmul
+    main.o(.text.TIMER32_1_IRQHandler) refers to daddsub.o(.text) for __aeabi_dadd
+    main.o(.text.TIMER32_1_IRQHandler) refers to dfixi.o(.text) for __aeabi_d2iz
+    main.o(.text.TIMER32_1_IRQHandler) refers to aeabi_sdivfast.o(.text_divfast) for __aeabi_idiv
+    main.o(.text.TIMER32_1_IRQHandler) refers to ddiv.o(.text) for __aeabi_ddiv
+    main.o(.text.TIMER32_1_IRQHandler) refers to fflti.o(.text) for __aeabi_i2f
+    main.o(.text.TIMER32_1_IRQHandler) refers to fcmp.o(i._feq) for __aeabi_fcmpeq
+    main.o(.text.TIMER32_1_IRQHandler) refers to fdiv.o(.text) for __aeabi_fdiv
+    main.o(.text.TIMER32_1_IRQHandler) refers to ffixi.o(.text) for __aeabi_f2iz
+    main.o(.text.TIMER32_1_IRQHandler) refers to lcd_driver.o(.text.LCD_clear) for LCD_clear
+    main.o(.text.TIMER32_1_IRQHandler) refers to lcd_driver.o(.text.LCD_print_number) for LCD_print_number
+    main.o(.text.TIMER32_1_IRQHandler) refers to lcd_driver.o(.text.LCD_print_char) for LCD_print_char
+    main.o(.text.TIMER32_1_IRQHandler) refers to lcd_driver.o(.text.LCD_print_string) for LCD_print_string
+    main.o(.text.TIMER32_1_IRQHandler) refers to noretval__2sprintf.o(.text) for __2sprintf
+    main.o(.text.TIMER32_1_IRQHandler) refers to uart.o(.text.UART_send_string) for UART_send_string
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.text.NVIC_DisableIRQ) for NVIC_DisableIRQ
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.text.NVIC_ClearPendingIRQ) for NVIC_ClearPendingIRQ
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.text.NVIC_EnableIRQ) for NVIC_EnableIRQ
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.bss.change_me) for change_me
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.bss.ADC_value_Srate) for ADC_value_Srate
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.bss.counter2) for counter2
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.bss.ADC_value) for ADC_value
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.bss.temp_Srate) for temp_Srate
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.bss.running_sum_Srate) for running_sum_Srate
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.bss.temp) for temp
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.bss.LED) for LED
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.bss.Srate_num) for Srate_num
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.bss.running_sum) for running_sum
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.bss.average_Srate) for average_Srate
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.data.degree_symbol) for degree_symbol
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.rodata.str1.1) for .L.str.9
+    main.o(.text.TIMER32_1_IRQHandler) refers to main.o(.bss.transmit_string_buffer) for transmit_string_buffer
+    main.o(.ARM.exidx.text.TIMER32_1_IRQHandler) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.ARM.exidx.text.TIMER32_1_IRQHandler) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.ARM.exidx.text.TIMER32_1_IRQHandler) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.ARM.exidx.text.TIMER32_1_IRQHandler) refers to main.o(.text.TIMER32_1_IRQHandler) for [Anonymous Symbol]
+    main.o(.text.UART_IRQHandler) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.text.UART_IRQHandler) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.text.UART_IRQHandler) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.text.UART_IRQHandler) refers to rt_memcpy.o(.emb_text) for __aeabi_memcpy4
+    main.o(.text.UART_IRQHandler) refers to main.o(.bss.UART_received_byte) for UART_received_byte
+    main.o(.text.UART_IRQHandler) refers to main.o(.bss.UART_received_index) for UART_received_index
+    main.o(.text.UART_IRQHandler) refers to main.o(.bss.UART_received_buffer) for UART_received_buffer
+    main.o(.text.UART_IRQHandler) refers to main.o(.bss.UART_received_flag) for UART_received_flag
+    main.o(.text.UART_IRQHandler) refers to main.o(.bss.received_string) for received_string
+    main.o(.ARM.exidx.text.UART_IRQHandler) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.ARM.exidx.text.UART_IRQHandler) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.ARM.exidx.text.UART_IRQHandler) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.ARM.exidx.text.UART_IRQHandler) refers to main.o(.text.UART_IRQHandler) for [Anonymous Symbol]
+    main.o(.text.main) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.text.main) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.text.main) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.text.main) refers to main.o(.text.NVIC_DisableIRQ) for NVIC_DisableIRQ
+    main.o(.text.main) refers to main.o(.text.NVIC_ClearPendingIRQ) for NVIC_ClearPendingIRQ
+    main.o(.text.main) refers to main.o(.text.NVIC_EnableIRQ) for NVIC_EnableIRQ
+    main.o(.text.main) refers to lcd_driver.o(.text.LCD_init) for LCD_init
+    main.o(.text.main) refers to uart.o(.text.UART_init) for UART_init
+    main.o(.text.main) refers to keypad_scanner.o(.text.Display_screen) for Display_screen
+    main.o(.text.main) refers to uart.o(.text.UART_send_string) for UART_send_string
+    main.o(.text.main) refers to lcd_driver.o(.text.LCD_clear) for LCD_clear
+    main.o(.text.main) refers to keypad_scanner.o(.text.Display_instruct) for Display_instruct
+    main.o(.text.main) refers to keypad_scanner.o(.text.keypad_init) for keypad_init
+    main.o(.text.main) refers to adc.o(.text.adc_init) for adc_init
+    main.o(.text.main) refers to timer.o(.text.timer_init) for timer_init
+    main.o(.text.main) refers to memcmp.o(.text) for memcmp
+    main.o(.text.main) refers to atoi.o(.text) for atoi
+    main.o(.text.main) refers to fflti.o(.text) for __aeabi_i2f
+    main.o(.text.main) refers to timer.o(.text.timer_init1) for timer_init1
+    main.o(.text.main) refers to noretval__2sprintf.o(.text) for __2sprintf
+    main.o(.text.main) refers to main.o(.bss.change_me) for change_me
+    main.o(.text.main) refers to main.o(.rodata.str1.4) for .L.str.14
+    main.o(.text.main) refers to main.o(.bss.transmit_string_buffer) for transmit_string_buffer
+    main.o(.text.main) refers to main.o(.bss.LED) for LED
+    main.o(.text.main) refers to main.o(.bss.UART_received_flag) for UART_received_flag
+    main.o(.text.main) refers to main.o(.bss.received_string) for received_string
+    main.o(.text.main) refers to main.o(.bss.pressed_letter) for pressed_letter
+    main.o(.text.main) refers to main.o(.bss.Average_num) for Average_num
+    main.o(.text.main) refers to main.o(.rodata.str1.1) for .L.str.29
+    main.o(.text.main) refers to main.o(.bss.Srate_num) for Srate_num
+    main.o(.text.main) refers to main.o(.bss.UART_received_index) for UART_received_index
+    main.o(.ARM.exidx.text.main) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.ARM.exidx.text.main) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.ARM.exidx.text.main) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.ARM.exidx.text.main) refers to main.o(.text.main) for [Anonymous Symbol]
+    main.o(.bss.counter) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.counter) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.counter) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.data.degree_symbol) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.data.degree_symbol) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.data.degree_symbol) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.Sfrequency_num) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.Sfrequency_num) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.Sfrequency_num) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.Srate_num) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.Srate_num) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.Srate_num) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.Average_num) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.Average_num) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.Average_num) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.interrupt) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.interrupt) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.interrupt) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.change_me) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.change_me) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.change_me) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.increase) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.increase) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.increase) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.count_num) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.count_num) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.count_num) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.sample) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.sample) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.sample) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.count_D) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.count_D) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.count_D) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.ADC_value) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.ADC_value) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.ADC_value) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.running_sum) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.running_sum) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.running_sum) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.count) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.count) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.count) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.ADC_value_Srate) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.ADC_value_Srate) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.ADC_value_Srate) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.running_sum_Srate) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.running_sum_Srate) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.running_sum_Srate) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.counter2) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.counter2) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.counter2) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.UART_received_flag) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.UART_received_flag) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.UART_received_flag) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.UART_received_index) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.UART_received_index) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.UART_received_index) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.UART_received_byte) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.UART_received_byte) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.UART_received_byte) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.key) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.key) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.key) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.keyvalue) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.keyvalue) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.keyvalue) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.pressed_letter) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.pressed_letter) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.pressed_letter) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.transmit_string_buffer) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.transmit_string_buffer) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.transmit_string_buffer) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.rodata.str1.4) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.rodata.str1.4) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.rodata.str1.4) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.rodata.str1.1) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.rodata.str1.1) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.rodata.str1.1) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.temp) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.temp) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.temp) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.average) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.average) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.average) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.LED) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.LED) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.LED) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.temp_Srate) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.temp_Srate) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.temp_Srate) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.average_Srate) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.average_Srate) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.average_Srate) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.received_string) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.received_string) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.received_string) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.UART_received_buffer) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.UART_received_buffer) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.UART_received_buffer) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.timer_interrupt) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.timer_interrupt) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.timer_interrupt) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.number1) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.number1) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.number1) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.number2) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.number2) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.number2) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.number3) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.number3) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.number3) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss.delay) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss.delay) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss.delay) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.ARM.use_no_argv) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.ARM.use_no_argv) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.ARM.use_no_argv) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    uart.o(.text.UART_init) refers to uart.o(.text.NVIC_EnableIRQ) for NVIC_EnableIRQ
+    uart.o(.ARM.exidx.text.UART_init) refers to uart.o(.text.UART_init) for [Anonymous Symbol]
+    uart.o(.ARM.exidx.text.NVIC_EnableIRQ) refers to uart.o(.text.NVIC_EnableIRQ) for [Anonymous Symbol]
+    uart.o(.ARM.exidx.text.UART_send_char) refers to uart.o(.text.UART_send_char) for [Anonymous Symbol]
+    uart.o(.text.UART_send_string) refers to uart.o(.text.UART_send_char) for UART_send_char
+    uart.o(.ARM.exidx.text.UART_send_string) refers to uart.o(.text.UART_send_string) for [Anonymous Symbol]
+    timer.o(.text.timer_init) refers to aeabi_sdivfast.o(.text_divfast) for __aeabi_idiv
+    timer.o(.text.timer_init) refers to timer.o(.text.NVIC_EnableIRQ) for NVIC_EnableIRQ
+    timer.o(.ARM.exidx.text.timer_init) refers to timer.o(.text.timer_init) for [Anonymous Symbol]
+    timer.o(.ARM.exidx.text.NVIC_EnableIRQ) refers to timer.o(.text.NVIC_EnableIRQ) for [Anonymous Symbol]
+    timer.o(.text.timer_init1) refers to aeabi_sdivfast.o(.text_divfast) for __aeabi_idiv
+    timer.o(.text.timer_init1) refers to timer.o(.text.NVIC_EnableIRQ) for NVIC_EnableIRQ
+    timer.o(.ARM.exidx.text.timer_init1) refers to timer.o(.text.timer_init1) for [Anonymous Symbol]
+    startup_lpc11xx.o(STACK) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_lpc11xx.o(HEAP) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_lpc11xx.o(RESET) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_lpc11xx.o(RESET) refers to startup_lpc11xx.o(STACK) for __initial_sp
+    startup_lpc11xx.o(RESET) refers to startup_lpc11xx.o(.text) for Reset_Handler
+    startup_lpc11xx.o(RESET) refers to main.o(.text.TIMER32_0_IRQHandler) for TIMER32_0_IRQHandler
+    startup_lpc11xx.o(RESET) refers to main.o(.text.TIMER32_1_IRQHandler) for TIMER32_1_IRQHandler
+    startup_lpc11xx.o(RESET) refers to main.o(.text.UART_IRQHandler) for UART_IRQHandler
+    startup_lpc11xx.o(RESET) refers to main.o(.text.PIOINT0_IRQHandler) for PIOINT0_IRQHandler
+    startup_lpc11xx.o(.ARM.__at_0x02FC) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_lpc11xx.o(.text) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_lpc11xx.o(.text) refers to __main.o(!!!main) for __main
+    startup_lpc11xx.o(.text) refers to startup_lpc11xx.o(HEAP) for Heap_Mem
+    startup_lpc11xx.o(.text) refers to startup_lpc11xx.o(STACK) for Stack_Mem
+    __2sprintf.o(.text) refers to _printf_char_common.o(.text) for _printf_char_common
+    __2sprintf.o(.text) refers to _sputc.o(.text) for _sputc
+    noretval__2sprintf.o(.text) refers to _printf_char_common.o(.text) for _printf_char_common
+    noretval__2sprintf.o(.text) refers to _sputc.o(.text) for _sputc
+    __printf.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    _printf_dec.o(.text) refers to rtudiv10.o(.text) for __rt_udiv10
+    _printf_dec.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    __printf_flags.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags.o(.text) refers to __printf_flags.o(.constdata) for .constdata
+    __printf_ss.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags_ss.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags_ss.o(.text) refers to __printf_flags_ss.o(.constdata) for .constdata
+    __printf_wp.o(.text) refers to __printf_wp.o(i._is_digit) for _is_digit
+    __printf_wp.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags_wp.o(.text) refers to __printf_wp.o(i._is_digit) for _is_digit
+    __printf_flags_wp.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags_wp.o(.text) refers to __printf_flags_wp.o(.constdata) for .constdata
+    __printf_ss_wp.o(.text) refers to __printf_wp.o(i._is_digit) for _is_digit
+    __printf_ss_wp.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags_ss_wp.o(.text) refers to __printf_wp.o(i._is_digit) for _is_digit
+    __printf_flags_ss_wp.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags_ss_wp.o(.text) refers to __printf_flags_ss_wp.o(.constdata) for .constdata
+    _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) refers (Weak) to _printf_dec.o(.text) for _printf_int_dec
+    _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) refers (Weak) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) refers (Special) to _printf_percent_end.o(.ARM.Collect$$_printf_percent$$00000017) for _printf_percent_end
+    atoi.o(.text) refers to rt_errno_addr_intlibspace.o(.text) for __aeabi_errno_addr
+    atoi.o(.text) refers to strtol.o(.text) for strtol
+    rt_memcpy.o(.text) refers to rt_memcpy.o(.emb_text) for __aeabi_memcpy4
+    __main.o(!!!main) refers to __rtentry.o(.ARM.Collect$$rtentry$$00000000) for __rt_entry
+    d2f.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    daddsub.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dcmp.o(i._deq) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dcmp.o(i._deq) refers to deqf.o(x$fpl$deqf) for _dcmpeq
+    dcmp.o(i._dgeq) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dcmp.o(i._dgeq) refers to dgef.o(x$fpl$dgeqf) for _dcmpge
+    dcmp.o(i._dgr) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dcmp.o(i._dgr) refers to dgef.o(x$fpl$dgeqf) for _dcmpge
+    dcmp.o(i._dleq) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dcmp.o(i._dleq) refers to dlef.o(x$fpl$dleqf) for _dcmple
+    dcmp.o(i._dls) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dcmp.o(i._dls) refers to dlef.o(x$fpl$dleqf) for _dcmple
+    dcmp.o(i._dneq) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dcmp.o(i._dneq) refers to deqf.o(x$fpl$deqf) for _dcmpeq
+    ddiv.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    ddiv.o(.text) refers to ddiv.o(.constdata) for .constdata
+    ddiv.o(.constdata) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dfixi.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dflti.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dmul.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    f2d.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    faddsub.o(x$fpl$fadd) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    faddsub.o(x$fpl$fadd) refers to faddsub.o(x$fpl$fsub) for _fsub1
+    faddsub.o(x$fpl$frsb) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    faddsub.o(x$fpl$frsb) refers to faddsub.o(x$fpl$fsub) for _fsub1
+    faddsub.o(x$fpl$frsb) refers to faddsub.o(x$fpl$fadd) for _fadd1
+    faddsub.o(x$fpl$fsub) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    faddsub.o(x$fpl$fsub) refers to faddsub.o(x$fpl$fadd) for _fadd1
+    fcmp.o(i._feq) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fcmp.o(i._feq) refers to feqf.o(x$fpl$feqf) for _fcmpeq
+    fcmp.o(i._fgeq) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fcmp.o(i._fgeq) refers to fgef.o(x$fpl$fgeqf) for _fcmpge
+    fcmp.o(i._fgr) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fcmp.o(i._fgr) refers to fgef.o(x$fpl$fgeqf) for _fcmpge
+    fcmp.o(i._fleq) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fcmp.o(i._fleq) refers to flef.o(x$fpl$fleqf) for _fcmple
+    fcmp.o(i._fls) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fcmp.o(i._fls) refers to flef.o(x$fpl$fleqf) for _fcmple
+    fcmp.o(i._fneq) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fcmp.o(i._fneq) refers to feqf.o(x$fpl$feqf) for _fcmpeq
+    fdiv.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fdiv.o(.text) refers to fdiv.o(.constdata) for .constdata
+    fdiv.o(.constdata) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    ffixi.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fflti.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fmul.o(x$fpl$fmul) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    printf1.o(x$fpl$printf1) refers to _printf_fp_dec.o(.text) for _printf_fp_dec_real
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) for __rt_entry_li
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) for __rt_entry_main
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000C) for __rt_entry_postli_1
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$00000009) for __rt_entry_postsh_1
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$00000002) for __rt_entry_presh_1
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry4.o(.ARM.Collect$$rtentry$$00000004) for __rt_entry_sh
+    aeabi_idiv0_sigfpe.o(.text) refers to rt_div0.o(.text) for __rt_div0
+    rt_errno_addr.o(.text) refers to rt_errno_addr.o(.bss) for __aeabi_errno_addr_data
+    rt_errno_addr_intlibspace.o(.text) refers to libspace.o(.bss) for __libspace_start
+    _printf_fp_dec.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    _printf_fp_dec.o(.text) refers (Special) to lc_numeric_c.o(locale$$code) for _get_lc_numeric
+    _printf_fp_dec.o(.text) refers to bigflt0.o(.text) for _btod_etento
+    _printf_fp_dec.o(.text) refers to btod.o(.text) for _btod_d2e
+    _printf_fp_dec.o(.text) refers to lludiv10.o(.text) for _ll_udiv10
+    _printf_fp_dec.o(.text) refers to fpclassify.o(i.__ARM_fpclassify) for __ARM_fpclassify
+    _printf_fp_dec.o(.text) refers to _printf_fp_infnan.o(.text) for _printf_fp_infnan
+    _printf_fp_dec.o(.text) refers to rtudiv10.o(.text) for __rt_udiv10
+    _printf_fp_dec.o(.text) refers to rt_locale_intlibspace.o(.text) for __rt_locale
+    _printf_fp_dec_accurate.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    _printf_fp_dec_accurate.o(.text) refers (Special) to lc_numeric_c.o(locale$$code) for _get_lc_numeric
+    _printf_fp_dec_accurate.o(.text) refers to btod_accurate.o(.text) for _btod_main
+    _printf_fp_dec_accurate.o(.text) refers to fpclassify.o(i.__ARM_fpclassify) for __ARM_fpclassify
+    _printf_fp_dec_accurate.o(.text) refers to _printf_fp_infnan.o(.text) for _printf_fp_infnan
+    _printf_fp_dec_accurate.o(.text) refers to rtudiv10.o(.text) for __rt_udiv10
+    _printf_fp_dec_accurate.o(.text) refers to rt_locale_intlibspace.o(.text) for __rt_locale
+    _printf_char_common.o(.text) refers to __printf_wp.o(.text) for __printf
+    strtol.o(.text) refers to rt_ctype_table.o(.text) for __rt_ctype_table
+    strtol.o(.text) refers to _strtoul.o(.text) for _strtoul
+    strtol.o(.text) refers to rt_errno_addr_intlibspace.o(.text) for __aeabi_errno_addr
+    deqf.o(x$fpl$deqf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    deqf.o(x$fpl$deqf) refers to dcmpin.o(.text) for __fpl_dcmp_InfNaN
+    dgef.o(x$fpl$dgeqf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dgef.o(x$fpl$dgeqf) refers to dcmpin.o(.text) for __fpl_dcmp_InfNaN
+    dlef.o(x$fpl$dleqf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dlef.o(x$fpl$dleqf) refers to dcmpin.o(.text) for __fpl_dcmp_InfNaN
+    feqf.o(x$fpl$feqf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    feqf.o(x$fpl$feqf) refers to fcmpin.o(.text) for __fpl_fcmp_InfNaN
+    fgef.o(x$fpl$fgeqf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fgef.o(x$fpl$fgeqf) refers to fcmpin.o(.text) for __fpl_fcmp_InfNaN
+    flef.o(x$fpl$fleqf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    flef.o(x$fpl$fleqf) refers to fcmpin.o(.text) for __fpl_fcmp_InfNaN
+    libspace.o(.text) refers to libspace.o(.bss) for __libspace_start
+    __rtentry2.o(.ARM.Collect$$rtentry$$00000008) refers to boardinit2.o(.text) for _platform_post_stackheap_init
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) refers to libinit.o(.ARM.Collect$$libinit$$00000000) for __rt_lib_init
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000B) refers to boardinit3.o(.text) for _platform_post_lib_init
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) refers to main.o(.text.main) for main
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) refers to exit.o(.text) for exit
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$00000001) for .ARM.Collect$$rtentry$$00000001
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$00000008) for .ARM.Collect$$rtentry$$00000008
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) for .ARM.Collect$$rtentry$$0000000A
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$0000000B) for .ARM.Collect$$rtentry$$0000000B
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) for .ARM.Collect$$rtentry$$0000000D
+    __rtentry4.o(.ARM.Collect$$rtentry$$00000004) refers to sys_stackheap_outer.o(.text) for __user_setup_stackheap
+    __rtentry4.o(.ARM.exidx) refers to __rtentry4.o(.ARM.Collect$$rtentry$$00000004) for .ARM.Collect$$rtentry$$00000004
+    rt_ctype_table.o(.text) refers to rt_locale_intlibspace.o(.text) for __rt_locale
+    rt_ctype_table.o(.text) refers to lc_ctype_c.o(locale$$code) for _get_lc_ctype
+    rt_div0.o(.text) refers to defsig_fpe_outer.o(.text) for __rt_SIGFPE
+    rt_locale.o(.text) refers to rt_locale.o(.bss) for __rt_locale_data
+    rt_locale_intlibspace.o(.text) refers to libspace.o(.bss) for __libspace_start
+    _strtoul.o(.text) refers to _chval.o(.text) for _chval
+    _strtoul.o(.text) refers to rt_errno_addr_intlibspace.o(.text) for __aeabi_errno_addr
+    bigflt0.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    bigflt0.o(.text) refers to aeabi_sdivfast.o(.text) for __aeabi_idivmod
+    bigflt0.o(.text) refers to btod.o(.text) for _btod_emul
+    bigflt0.o(.text) refers to bigflt0.o(.constdata) for .constdata
+    bigflt0.o(.constdata) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod.o(.text) refers to btod.o(i.__ARM_common_ll_muluu) for __ARM_common_ll_muluu
+    btod_accurate.o(.text) refers to btod_accurate_common.o(.text) for _btod_common
+    lc_numeric_c.o(locale$$data) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000016) for __rt_lib_init_lc_numeric_2
+    lc_numeric_c.o(locale$$code) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000016) for __rt_lib_init_lc_numeric_2
+    lc_numeric_c.o(locale$$code) refers to strcmpv6m.o(.text) for strcmp
+    lc_numeric_c.o(locale$$code) refers to lc_numeric_c.o(locale$$data) for __lcnum_c_name
+    dcmpin.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dcmpin.o(.text) refers to cmpret.o(.text) for __fpl_cmpreturn
+    dcmpin.o(.text) refers to dnan2.o(.text) for __fpl_dcheck_NaN2
+    fcmpin.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fcmpin.o(.text) refers to cmpret.o(.text) for __fpl_cmpreturn
+    fcmpin.o(.text) refers to fnan2.o(.text) for __fpl_fcheck_NaN2
+    ieee_status.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fpclassify.o(i.__ARM_fpclassify) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    sys_stackheap_outer.o(.text) refers to libspace.o(.text) for __user_perproc_libspace
+    sys_stackheap_outer.o(.text) refers to startup_lpc11xx.o(.text) for __user_initial_stackheap
+    sys_stackheap_outer.o(__vectab_stack_and_reset_area) refers to tempstk.o(.text) for __temporary_stack_top
+    sys_stackheap_outer.o(__vectab_stack_and_reset_area) refers to __main.o(!!!main) for __main
+    btod_accurate_common.o(.text) refers to aeabi_sdivfast.o(.text) for __aeabi_uidivmod
+    btod_accurate_common.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    lc_ctype_c.o(locale$$data) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000012) for __rt_lib_init_lc_ctype_2
+    lc_ctype_c.o(locale$$code) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000012) for __rt_lib_init_lc_ctype_2
+    lc_ctype_c.o(locale$$code) refers to strcmpv6m.o(.text) for strcmp
+    lc_ctype_c.o(locale$$code) refers to lc_ctype_c.o(locale$$data) for __lcctype_c_name
+    exit.o(.text) refers to rtexit.o(.ARM.Collect$$rtexit$$00000000) for __rt_exit
+    defsig_fpe_outer.o(.text) refers to defsig_fpe_inner.o(.text) for __rt_SIGFPE_inner
+    defsig_fpe_outer.o(.text) refers to defsig_exit.o(.text) for __sig_exit
+    defsig_fpe_formal.o(.text) refers to rt_raise.o(.text) for __rt_raise
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000002E) for __rt_lib_init_alloca_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000002C) for __rt_lib_init_argv_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000001B) for __rt_lib_init_atexit_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000021) for __rt_lib_init_clock_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000032) for __rt_lib_init_cpp_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000030) for __rt_lib_init_exceptions_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000002) for __rt_lib_init_fp_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000001F) for __rt_lib_init_fp_trap_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000023) for __rt_lib_init_getenv_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000000A) for __rt_lib_init_heap_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000011) for __rt_lib_init_lc_collate_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000013) for __rt_lib_init_lc_ctype_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000015) for __rt_lib_init_lc_monetary_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000017) for __rt_lib_init_lc_numeric_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000019) for __rt_lib_init_lc_time_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000004) for __rt_lib_init_preinit_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000000E) for __rt_lib_init_rand_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000033) for __rt_lib_init_return
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000001D) for __rt_lib_init_signal_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000025) for __rt_lib_init_stdio_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000000C) for __rt_lib_init_user_alloc_1
+    libinit2.o(.ARM.Collect$$libinit$$0000000F) refers (Weak) to rt_locale_intlibspace.o(.text) for __rt_locale
+    libinit2.o(.ARM.Collect$$libinit$$00000010) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000012) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000012) refers (Weak) to lc_ctype_c.o(locale$$code) for _get_lc_ctype
+    libinit2.o(.ARM.Collect$$libinit$$00000014) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000016) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000016) refers (Weak) to lc_numeric_c.o(locale$$code) for _get_lc_numeric
+    libinit2.o(.ARM.Collect$$libinit$$00000018) refers to libinit2.o(.ARM.Collect$$libinit$$0000000F) for .ARM.Collect$$libinit$$0000000F
+    libinit2.o(.ARM.Collect$$libinit$$00000026) refers to argv_veneer.o(.text) for __ARM_argv_veneer
+    libinit2.o(.ARM.Collect$$libinit$$00000027) refers to argv_veneer.o(.text) for __ARM_argv_veneer
+    cmpret.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dnan2.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dnan2.o(.text) refers to retnan.o(.text) for __fpl_return_NaN
+    fnan2.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fnan2.o(.text) refers to retnan.o(.text) for __fpl_return_NaN
+    rtexit.o(.ARM.Collect$$rtexit$$00000000) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000004) for __rt_exit_exit
+    rtexit.o(.ARM.Collect$$rtexit$$00000000) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000003) for __rt_exit_ls
+    rtexit.o(.ARM.Collect$$rtexit$$00000000) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000002) for __rt_exit_prels_1
+    rtexit.o(.ARM.exidx) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000004) for __rt_exit_exit
+    rtexit.o(.ARM.exidx) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000003) for __rt_exit_ls
+    rtexit.o(.ARM.exidx) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000002) for __rt_exit_prels_1
+    rtexit.o(.ARM.exidx) refers to rtexit.o(.ARM.Collect$$rtexit$$00000000) for .ARM.Collect$$rtexit$$00000000
+    rt_raise.o(.text) refers to __raise.o(.text) for __raise
+    rt_raise.o(.text) refers to sys_exit.o(.text) for _sys_exit
+    defsig_exit.o(.text) refers to sys_exit.o(.text) for _sys_exit
+    defsig_fpe_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    retnan.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    retnan.o(.text) refers to cmpret.o(.text) for __fpl_cmpreturn
+    sys_exit.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_exit.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    sys_exit_hlt.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_exit_hlt.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    rtexit2.o(.ARM.Collect$$rtexit$$00000003) refers to libshutdown.o(.ARM.Collect$$libshutdown$$00000000) for __rt_lib_shutdown
+    rtexit2.o(.ARM.Collect$$rtexit$$00000004) refers to sys_exit.o(.text) for _sys_exit
+    rtexit2.o(.ARM.exidx) refers to rtexit2.o(.ARM.Collect$$rtexit$$00000001) for .ARM.Collect$$rtexit$$00000001
+    rtexit2.o(.ARM.exidx) refers to rtexit2.o(.ARM.Collect$$rtexit$$00000003) for .ARM.Collect$$rtexit$$00000003
+    rtexit2.o(.ARM.exidx) refers to rtexit2.o(.ARM.Collect$$rtexit$$00000004) for .ARM.Collect$$rtexit$$00000004
+    __raise.o(.text) refers to defsig.o(CL$$defsig) for __default_signal_handler
+    defsig_general.o(.text) refers to sys_wrch.o(.text) for _ttywrch
+    _get_argv_nomalloc.o(.text) refers (Special) to hrguard.o(.text) for __heap_region$guard
+    _get_argv_nomalloc.o(.text) refers to defsig_rtmem_outer.o(.text) for __rt_SIGRTMEM
+    _get_argv_nomalloc.o(.text) refers to sys_command.o(.text) for _sys_command_string
+    sys_wrch.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_wrch.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    sys_command.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_command.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    sys_wrch_hlt.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_wrch_hlt.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    sys_command_hlt.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_command_hlt.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    defsig_rtmem_outer.o(.text) refers to defsig_rtmem_inner.o(.text) for __rt_SIGRTMEM_inner
+    defsig_rtmem_outer.o(.text) refers to defsig_exit.o(.text) for __sig_exit
+    defsig_rtmem_formal.o(.text) refers to rt_raise.o(.text) for __rt_raise
+    defsig.o(CL$$defsig) refers to defsig_fpe_inner.o(.text) for __rt_SIGFPE_inner
+    defsig.o(CL$$defsig) refers to defsig_rtmem_inner.o(.text) for __rt_SIGRTMEM_inner
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000002) for __rt_lib_shutdown_cpp_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000007) for __rt_lib_shutdown_fp_trap_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F) for __rt_lib_shutdown_heap_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000010) for __rt_lib_shutdown_return
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A) for __rt_lib_shutdown_signal_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000004) for __rt_lib_shutdown_stdio_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C) for __rt_lib_shutdown_user_alloc_1
+    defsig_abrt_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_rtred_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_rtmem_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_stak_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_pvfn_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_cppl_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_segv_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_other.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing adc.o(.text), (0 bytes).
+    Removing adc.o(.ARM.exidx.text.adc_init), (8 bytes).
+    Removing keypad_scanner.o(.text), (0 bytes).
+    Removing keypad_scanner.o(.ARM.exidx.text.groundRows), (8 bytes).
+    Removing keypad_scanner.o(.ARM.exidx.text.keypad_init), (8 bytes).
+    Removing keypad_scanner.o(.ARM.exidx.text.NVIC_EnableIRQ), (8 bytes).
+    Removing keypad_scanner.o(.ARM.exidx.text.scanner), (8 bytes).
+    Removing keypad_scanner.o(.ARM.exidx.text.Enter_Sfrequency), (8 bytes).
+    Removing keypad_scanner.o(.ARM.exidx.text.Display_screen), (8 bytes).
+    Removing keypad_scanner.o(.ARM.exidx.text.Display_instruct), (8 bytes).
+    Removing keypad_scanner.o(.ARM.exidx.text.debounce), (8 bytes).
+    Removing lcd_driver.o(.text), (0 bytes).
+    Removing lcd_driver.o(.ARM.exidx.text.LCD_command), (8 bytes).
+    Removing lcd_driver.o(.ARM.exidx.text.LCD_init), (8 bytes).
+    Removing lcd_driver.o(.text.LCD_cursor), (44 bytes).
+    Removing lcd_driver.o(.ARM.exidx.text.LCD_cursor), (8 bytes).
+    Removing lcd_driver.o(.ARM.exidx.text.LCD_print_string), (8 bytes).
+    Removing lcd_driver.o(.ARM.exidx.text.LCD_clear), (8 bytes).
+    Removing lcd_driver.o(.ARM.exidx.text.LCD_print_char), (8 bytes).
+    Removing lcd_driver.o(.ARM.exidx.text.LCD_print_number), (8 bytes).
+    Removing lcd_driver.o(.text.LCD_print_float), (40 bytes).
+    Removing lcd_driver.o(.ARM.exidx.text.LCD_print_float), (8 bytes).
+    Removing main.o(.text), (0 bytes).
+    Removing main.o(.ARM.exidx.text.PIOINT0_IRQHandler), (8 bytes).
+    Removing main.o(.ARM.exidx.text.NVIC_DisableIRQ), (8 bytes).
+    Removing main.o(.ARM.exidx.text.NVIC_ClearPendingIRQ), (8 bytes).
+    Removing main.o(.ARM.exidx.text.NVIC_EnableIRQ), (8 bytes).
+    Removing main.o(.ARM.exidx.text.TIMER32_0_IRQHandler), (8 bytes).
+    Removing main.o(.ARM.exidx.text.TIMER32_1_IRQHandler), (8 bytes).
+    Removing main.o(.ARM.exidx.text.UART_IRQHandler), (8 bytes).
+    Removing main.o(.ARM.exidx.text.main), (8 bytes).
+    Removing main.o(.bss.sample), (4 bytes).
+    Removing main.o(.bss.count), (4 bytes).
+    Removing main.o(.bss.timer_interrupt), (4 bytes).
+    Removing main.o(.bss.number1), (4 bytes).
+    Removing main.o(.bss.number2), (4 bytes).
+    Removing main.o(.bss.number3), (4 bytes).
+    Removing main.o(.bss.delay), (4 bytes).
+    Removing main.o(.ARM.use_no_argv), (4 bytes).
+    Removing uart.o(.text), (0 bytes).
+    Removing uart.o(.ARM.exidx.text.UART_init), (8 bytes).
+    Removing uart.o(.ARM.exidx.text.NVIC_EnableIRQ), (8 bytes).
+    Removing uart.o(.ARM.exidx.text.UART_send_char), (8 bytes).
+    Removing uart.o(.ARM.exidx.text.UART_send_string), (8 bytes).
+    Removing timer.o(.text), (0 bytes).
+    Removing timer.o(.ARM.exidx.text.timer_init), (8 bytes).
+    Removing timer.o(.ARM.exidx.text.NVIC_EnableIRQ), (8 bytes).
+    Removing timer.o(.ARM.exidx.text.timer_init1), (8 bytes).
+
+48 unused section(s) (total 372 bytes) removed from the image.
